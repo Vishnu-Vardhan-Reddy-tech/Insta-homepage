@@ -1,0 +1,228 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 'Courier New', Courier, monospace system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(min-width: 990px){
+    .container {
+        width: 900px;
+        margin: 60px auto;
+        display: flex;
+        gap: 40px;
+    }
+    .feed{
+        width: 560px;
+        padding:10px;
+        border-radius: 15px;
+        border: 1px solid lightgrey;
+        margin-bottom: 30px;
+    }
+    .feed-img{
+        width:100%;
+        border-radius: 14px;
+    }
+    .profile {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    .user {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .mob-img {
+        height: 500px;
+        object-fit: cover;
+    }
+    .bi-heart
+    {
+        font-size: 26px;
+        
+    
+    }
+    .reactions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .reactions-left{
+        display: flex;
+        gap: 16px;
+    }
+    .username{
+        font-size: 14px;
+        color: grey;
+    }
+    .sidebar-title{
+        margin-top:0;
+    }
+    .app{
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        
+    }
+    .link{
+        height: 150px;
+        
+    }
+    .story-container{
+        width: 990px;
+        margin: 40px auto;
+        display: flex;
+        gap:16px;
+    }
+    .story{
+        text-align: center;
+    
+    }
+    .name{
+        font-size: 14px;
+    }
+    .story-img{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .navbar{
+
+        width: 990px;
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        height: 32px;
+    }
+    .btn{
+        border: 1px solid lightgrey;
+        padding: 12px 24px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .btn-button:hover{
+        background-color: black;
+    }
+    .btn-button:active{
+        background-color: black;
+    }
+}
+
+
+
+   /* small screen */ 
+@media(max-width:989px){
+    .container {
+       
+        margin: 60px auto;
+       
+    }
+    .feed{
+        
+        padding:10px;
+        border-radius: 15px;
+        border: 1px solid lightgrey;
+        margin-bottom: 30px;
+    }
+    .sidebar{
+        text-align: center;
+    }
+    .feed-img{
+        width:100%;
+        border-radius: 14px;
+    }
+    .profile {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    .user {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .mob-img {
+        height: 500px;
+        object-fit: cover;
+    }
+    .bi-heart
+    {
+        font-size: 26px;
+        
+    
+    }
+    .reactions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .reactions-left{
+        display: flex;
+        gap: 16px;
+    }
+    .username{
+        font-size: 14px;
+        color: grey;
+    }
+    .sidebar-title{
+        font-size: 20px;
+        margin-top:0;
+    }
+    .app{
+        display: flex;
+        
+    }
+    .link{
+        height: 150px;
+        
+    }
+    .story-container{
+        width: 990px;
+        margin: 40px auto;
+        display: flex;
+        gap:12px;
+        overflow-x: scroll;
+    }
+    .story-container::-webkit-scrollbar{
+        display: none;
+    }
+    .story{
+        text-align: center;
+    
+    }
+    .name{
+        font-size: 14px;
+    }
+    .story-img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .navbar{
+        align-items: center;
+        width: 990px;
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        height: 32px;
+    }
+    .btn{
+        border: 1px solid lightgrey;
+        padding: 12px 24px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .btn-button:hover{
+        background-color: black;
+    }
+    .btn-button:active{
+        background-color: black;
+    }
+}
+
+
